@@ -1,0 +1,499 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #1E1E28;
+    color: #fff;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    padding: 15px 25px;
+    height: auto;
+    margin: 0 110px;
+}
+
+.slide-bar-info {
+    /* flex: 1; */
+    width: 290px;
+    margin: 0 15px;
+    background-color: rgb(20, 20, 2A);
+    box-shadow: 0 1px 4px 0 rgba(15, 15, 10, .1);
+}
+
+.slide-bar-menu {
+    /* flex: 1; */
+    justify-content: flex-end;
+    box-shadow: 0 1px 4px 0 rgba(15, 15, 10, .1);
+}
+
+.slide-bar-content {
+    flex: 1;
+    height: auto;
+}
+
+.bar-info {
+    background-color: #252531;
+    position: fixed;
+    width: 290px;
+    z-index: 1;
+}
+
+.bar-info-header {
+    width: 100%;
+    height: 235px;
+}
+
+.bar-art-avatar {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.avatar-curent {
+    display: flex;
+    justify-content: center;
+}
+
+.art-img {
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-bottom: 15px;
+}
+
+.art-text {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.art-sm-text {
+    color: #707075;
+}
+
+.scrollbar {
+    width: 100%;
+    margin-top: 250px;
+}
+
+.scroll-frame {
+    overflow-y: auto;
+    background-color: #20202A;
+    position: fixed;
+    width: 290px;
+    top: 20px;
+    bottom: 50px;
+}
+
+.scroll-frame::-webkit-scrollbar {
+    display: none;
+}
+
+.art-table {
+    padding: 15px 0;
+    color: black;
+}
+
+.art-table ul {
+    list-style-type: none;
+}
+
+.art-table ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.art-table ul li h6 {
+    color: #E7E7E8;
+    font-size: 16px;
+}
+
+.art-table ul li span {
+    color: #8A8A8C;
+}
+
+.art-divider {
+    background-color: #8A8A8C;
+    height: 2px;
+    opacity: .3;
+    /* width: 90%; */
+    margin: 0 30px;
+}
+
+.art-lang-skill {
+    padding: 0 0 20px 30px;
+    background-color: #20202A;
+}
+
+.lang-text {
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+.lang-skill-item {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+.art-cirkle-progress {
+    width: 65%;
+}
+
+.art-cirkle-progress h6 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.art-cirkle-progress path:first-child {
+    stroke: #000;
+}
+
+.art-cirkle-progress path:last-child {
+    stroke: #ffc107;
+}
+
+.code-skill-item {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+.art-code-skill {
+    padding: 0 30px 20px 30px;
+    background-color: #20202A;
+}
+
+.art-hard-skills-item {
+    margin-bottom: 10px;
+}
+
+.art-skill-heading h6 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.art-skills-progress path:first-child {
+    stroke: #000;
+}
+
+.art-skills-progress path:last-child {
+    stroke: #ffc107;
+}
+
+.progressbar-text {
+    width: 100%;
+    text-align: right;
+    top: -6px !important;
+    font-size: 13px;
+    color: #cacace !important;
+}
+
+.art-title-h {
+    padding: 20px 0 20px 30px;
+    font-size: 14px;
+}
+
+.art-knowledge-list {
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.art-knowledge-list li {
+    padding: 0 0 0 30px;
+    margin: 10px 0;
+}
+
+.art-knowledge-list li i {
+    color: #FFC107;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.dowload-text {
+    margin: 10px 30px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.dowload-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.art-social {
+    padding: 15px 0;
+    margin: 0 auto;
+    background-color: #252531;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 150px;
+    z-index: 1;
+    width: 290px;
+}
+
+.art-social a {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.art-menu-social {
+    background-color: #20202A;
+    height: 100%;
+    width: 82px;
+}
+
+.menu-social-icon {
+    width: 82px;
+    height: 82px;
+    background-color: #252531;
+}
+
+.menu-social-icon i {
+    margin-top: 30%;
+    margin-left: 30%;
+    font-size: 30px;
+}
+
+.close {
+    position: fixed;
+}
+
+.menu-social {
+    width: 230px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #20202A;
+    color: #ccc;
+    max-width: 100%;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform linear 0.2s, opacity linear .2s;
+}
+
+.menu-social .menu-social-icon {
+    width: 100%;
+    height: 50px;
+}
+
+.menu-social .menu-social-icon i {
+    margin: 10px 0 0 30px;
+    margin-bottom: 70px;
+}
+
+.menu-social-list {
+    list-style-type: none;
+}
+
+.menu-social-item {
+    padding: 10px 20px;
+}
+
+.menu-social-item a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 200;
+}
+
+.menu-social-item a:hover {
+    color: white;
+    font-size: 15px;
+}
+
+.nav__input:checked~.menu-social {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.slide-back {
+    background-image: linear-gradient(rgba(0, 0, 0, .8) 15%, #1E1E28, #1E1E28), url(/img/bg.jpg);
+    background-size: 100%;
+    /* height: 420px; */
+    background-repeat: no-repeat;
+    background-position: 0 -250px;
+}
+
+.bar-content {
+    padding: 0 15px 15px 15px;
+    margin-right: 10px;
+}
+
+.content-header {
+    margin-top: 60px;
+    background-image: linear-gradient(90deg, rgba(45, 45, 58, .9) 15%, rgba(45, 45, 58, .7) 50%, rgba(43, 43, 53, .7) 100%), url(/img/bg.jpg);
+    background-size: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.content-text_header {
+    padding: 70px 0 0 65px;
+}
+
+.content-banner {
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.console-container {
+    font-family: Khula;
+    font-size: 16px;
+    height: 200px;
+    width: 600px;
+    display: block;
+    position: absolute;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: 10px;
+}
+
+.console-container span {
+    color: #ffc107;
+}
+
+#mr {
+    margin-left: 10px;
+}
+
+.content-code_header {
+    margin: 10px 0 10px 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.content-button {
+    padding: 7px 25px;
+    margin: 40px 0 0 0;
+    background-color: #ffc107;
+    display: inline-block
+}
+
+.content-button a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #1E1E28;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.content-button:hover {
+    cursor: pointer;
+}
+
+.content-text_header img {
+    width: 320px;
+    position: absolute;
+    right: 260px;
+    top: 110px;
+}
+
+.content-banerr {
+    margin-bottom: 30px;
+}
+
+.number-banner {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+.text-banner {
+    font-size: 16px;
+}
+
+.text-service {
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.content-service_items {
+    background-color: #2D2D38;
+    padding: 20px;
+}
+
+#text-header {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#text-bottom {
+    color: #ccc;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 10px;
+}
+
+.text-footer {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #FFC107;
+}
+
+.text-plan {
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.recommen-item {
+    background-color: #2D2D38;
+    padding: 15px;
+}
+
+.social-image {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social-image img {
+    opacity: 0.7;
+    width: 80%;
+}
+
+.social-image img:hover {
+    opacity: 1;
+}
+
+.footer {
+    background-color: #2D2D38;
+    padding: 15px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    text-align: right;
+}
