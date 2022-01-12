@@ -321,7 +321,7 @@
 }
 
 .slide-back {
-    background-image: linear-gradient(rgba(0, 0, 0, .8) 15%, #1E1E28, #1E1E28), url(/CVWeb/img/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .8) 15%, #1E1E28, #1E1E28), url(/CVWeb/bg.jpg);
     background-size: 100%;
     /* height: 420px; */
     background-repeat: no-repeat;
@@ -335,7 +335,7 @@
 
 .content-header {
     margin-top: 60px;
-    background-image: linear-gradient(90deg, rgba(45, 45, 58, .9) 15%, rgba(45, 45, 58, .7) 50%, rgba(43, 43, 53, .7) 100%), url(/bg.jpg);
+    background-image: linear-gradient(90deg, rgba(45, 45, 58, .9) 15%, rgba(45, 45, 58, .7) 50%, rgba(43, 43, 53, .7) 100%), url(CVWeb/bg.jpg);
     background-size: 100%;
     height: 360px;
     background-repeat: no-repeat;
