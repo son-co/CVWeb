@@ -335,7 +335,7 @@
 
 .content-header {
     margin-top: 60px;
-    background-image: linear-gradient(90deg, rgba(45, 45, 58, .9) 15%, rgba(45, 45, 58, .7) 50%, rgba(43, 43, 53, .7) 100%), url(bg.jpg);
+    background-image: linear-gradient(90deg, rgba(45, 45, 58, .9) 15%, rgba(45, 45, 58, .7) 50%, rgba(43, 43, 53, .7) 100%),url(bg.jpg);
     background-size: 100%;
     height: 360px;
     background-repeat: no-repeat;
